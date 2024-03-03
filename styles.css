@@ -1,43 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .clock {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .alarm input[type="time"] {
-    font-size: 18px;
-    padding: 8px;
-  }
-  
-  .alarm button {
-    font-size: 18px;
-    padding: 8px 20px;
-    margin: 0 5px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  .alarm button:hover {
-    background-color: #0056b3;
-  }
-  
-  
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clock {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.alarm input[type="number"],
+.alarm select {
+  font-size: 18px;
+  padding: 8px;
+  margin: 5px;
+  width: 70px;
+  text-align: center;
+}
+
+.alarm button {
+  font-size: 18px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.alarm button:hover {
+  background-color: #0056b3;
+}
+
+.alarms {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.alarms h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.alarms ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alarms li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.alarms button {
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.alarms button:hover {
+  background-color: #c82333;
+}
